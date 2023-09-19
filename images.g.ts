@@ -3,185 +3,6 @@ namespace myImages {
 
     helpers._registerFactory("image", function(name: string) {
         switch(helpers.stringTrim(name)) {
-            case "image6":
-            case "BALL 1":return img`
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . f f f f f f f . . . . 
-. . . . f e e e e e e e f . . . 
-. . . f e e e e e e e e e f . . 
-. . . f e e e e e e e e e f . . 
-. . . f e e e e e e e e e f . . 
-. . . f e e e e e e e e e f . . 
-. . . f e e e e e e e e e f . . 
-. . . f e e e e e e e e e f . . 
-. . . f e e e e e e e e e f . . 
-. . . . f e e e e e e e f . . . 
-. . . . . f f f f f f f . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-`;
-            case "image5":
-            case "Wham":return img`
-. . f f f f f . . 
-. 2 2 2 2 2 2 . . 
-. f f f f f f f . 
-. f a f a f f f . 
-. a a a a a f f . 
-. a a a a a f . . 
-. . f f a . . . . 
-. a 1 a a 1 a a . 
-a a 1 f f 1 a a a 
-a 1 f f f f 1 a a 
-a f f 2 1 f f a a 
-a f f 1 8 f f a a 
-a f f f f f f a a 
-a f f f f f f a a 
-a 1 1 1 1 1 1 a a 
-a f f 8 f f f a a 
-a f f 8 f f f a a 
-. f f 8 f f f . . 
-. a a . . a a . . 
-. a a . . a a . . 
-. a a . . a a . . 
-. 1 2 . . 1 2 . . 
-1 1 1 . 1 1 1 . . 
-`;
-            case "image4":
-            case "TNT standing dribble":return img`
-....fffff..........
-..fffffeef.........
-.ff.ffeeee.........
-.ff.ffefef.........
-.ff.feeeee.........
-.ff..eeeee.........
-ff....eee..........
-...ee1ee1e.........
-..eee1ff1ee........
-..ee1ffff1e........
-..eeff12ffe........
-..eeff81ffee.......
-..eeffffffee.......
-..eeffffff.eee.....
-..ee111111..ee811..
-..eefff8ff...f811f.
-..eefff8ff..11f1f22
-....fff8ff..fffffff
-....ee..ee..22f1f11
-....ee..ee...f118f.
-....ee..ee....118..
-....21..21.........
-....111.111........
-`;
-            case "image3":
-            case "Hotshot":return img`
-. . . . . . . . . 
-. . . . . . . . . 
-. . . . . . . . . 
-. . . . . . . . . 
-. . f f f f . . . 
-. f e e e e f . . 
-. e e e e e f . . 
-. f e f e e f . . 
-. e e e e e f . . 
-. e e e e e . . . 
-. . e e e . . . . 
-. e 1 e e 1 e e . 
-e e 1 f f 1 e e e 
-e 1 f f f f 1 e e 
-e f f 2 1 f f e e 
-e f f 1 8 f f e e 
-e f f f f f f e e 
-e 1 1 1 1 1 1 e e 
-e f f 8 f f f e e 
-. f f 8 f f f . . 
-. e e . . e e . . 
-. 1 2 . . 1 2 . . 
-1 1 1 . 1 1 1 . . 
-`;
-            case "image7":
-            case "Torch":return img`
-. . . . . f f . . 
-. . . . f f f f . 
-. . f f f f f f . 
-. 2 2 2 2 2 2 f . 
-. a a a a f f . . 
-. f a f a f f . . 
-. a a a a a f . . 
-. a a a a a . . . 
-. . a a a . . . . 
-. a 1 a a 1 a a . 
-a a 1 f f 1 a a a 
-a 1 f f f f 1 a a 
-a f f 2 1 f f a a 
-a f f 1 8 f f a a 
-a f f f f f f a a 
-a 1 1 1 1 1 1 a a 
-a f f 8 f f f a a 
-a f f 8 f f f a a 
-. f f 8 f f f . . 
-. a a . . a a . . 
-. a a . . a a . . 
-. 1 2 . . 1 2 . . 
-1 1 1 . 1 1 1 . . 
-`;
-            case "image8":
-            case "Coach Sweet Lou":return img`
-. . . f f f f f . . . 
-. . f f e e e f f . . 
-. . f e e e e e f . . 
-. . e e f e f e e . . 
-. . e e e e e e e . . 
-. . e f e e e f e . . 
-. . . e f f f e . . . 
-. . . . e e e . . . . 
-. 3 3 f 1 e 1 f 3 3 . 
-3 3 3 f 1 2 1 f 3 3 3 
-3 3 3 3 f 2 f 3 3 3 3 
-3 3 3 3 3 f 3 3 3 3 3 
-3 3 3 3 3 f 3 1 1 3 3 
-3 3 3 3 3 f 3 3 3 3 3 
-3 3 3 3 3 f 3 3 3 3 3 
-1 1 3 3 f 3 f 3 3 1 1 
-e e f f 3 3 3 f f e e 
-e e 3 3 3 . 3 3 3 e e 
-. . 3 3 3 . 3 3 3 . . 
-. . 3 3 3 . 3 3 3 . . 
-. . 3 3 3 . 3 3 3 . . 
-. . f f f . f f f . . 
-. . f f f . f f f . . 
-`;
-            case "image11":
-            case "HG Basketball":return img`
-. . 8 1 1 . . 
-. f 8 1 1 f . 
-1 1 f 1 f 2 2 
-f f f f f f f 
-2 2 f 1 f 1 1 
-. f 1 1 8 f . 
-. . 1 1 8 . . 
-`;
-            case "image16":
-            case "Net":return img`
-. . . . 3 3 3 3 3 3 3 . . . . 
-. . 3 3 f f f f f f f 3 3 . . 
-. 3 f f 1 1 . . . 1 1 f f 3 . 
-3 f f . 1 . 1 . 1 . 1 . f f 3 
-3 f 1 . 1 . . 1 . . 1 . 1 f 3 
-f 3 f 1 1 . 1 . 1 . 1 1 f 3 f 
-1 f 3 3 1 1 . . . 1 1 3 3 f 1 
-1 1 f f 3 3 3 3 3 3 3 f f 1 1 
-1 . 1 . f f f f f f f . 1 . 1 
-1 . . 1 1 . 1 . 1 . 1 1 . . 1 
-1 . 1 . 1 1 . . . 1 1 . 1 . 1 
-1 1 . . 1 . 1 . 1 . 1 . . 1 1 
-1 . 1 . 1 . . 1 . . 1 . 1 . 1 
-1 . . 1 1 . 1 . 1 . 1 1 . . 1 
-. . . . 1 1 . . . 1 1 . . . . 
-. . . . 1 . 1 . 1 . 1 . . . . 
-. . . . 1 . . 1 . . 1 . . . . 
-`;
             case "image9":
             case "court":return img`
 8888888888888888888888888888888888888888888888f88888888888888888888888888888888888888888888888888888888888888888f88888888888888888888888888888888888888888888888
@@ -471,13 +292,192 @@ dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd
 . . . a e e e e e . . . 
 . . . . . . . . . . . . 
 `;
+            case "image6":
+            case "ball":return img`
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . f f f f f f f . . . . 
+. . . . f e e e e e e e f . . . 
+. . . f e e e e e e e e e f . . 
+. . . f e e e e e e e e e f . . 
+. . . f e e e e e e e e e f . . 
+. . . f e e e e e e e e e f . . 
+. . . f e e e e e e e e e f . . 
+. . . f e e e e e e e e e f . . 
+. . . f e e e e e e e e e f . . 
+. . . . f e e e e e e e f . . . 
+. . . . . f f f f f f f . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+`;
+            case "image5":
+            case "wham":return img`
+. . f f f f f . . 
+. 2 2 2 2 2 2 . . 
+. f f f f f f f . 
+. f a f a f f f . 
+. a a a a a f f . 
+. a a a a a f . . 
+. . f f a . . . . 
+. a 1 a a 1 a a . 
+a a 1 f f 1 a a a 
+a 1 f f f f 1 a a 
+a f f 2 1 f f a a 
+a f f 1 8 f f a a 
+a f f f f f f a a 
+a f f f f f f a a 
+a 1 1 1 1 1 1 a a 
+a f f 8 f f f a a 
+a f f 8 f f f a a 
+. f f 8 f f f . . 
+. a a . . a a . . 
+. a a . . a a . . 
+. a a . . a a . . 
+. 1 2 . . 1 2 . . 
+1 1 1 . 1 1 1 . . 
+`;
+            case "image4":
+            case "tnt_standing":return img`
+....fffff..........
+..fffffeef.........
+.ff.ffeeee.........
+.ff.ffefef.........
+.ff.feeeee.........
+.ff..eeeee.........
+ff....eee..........
+...ee1ee1e.........
+..eee1ff1ee........
+..ee1ffff1e........
+..eeff12ffe........
+..eeff81ffee.......
+..eeffffffee.......
+..eeffffff.eee.....
+..ee111111..ee811..
+..eefff8ff...f811f.
+..eefff8ff..11f1f22
+....fff8ff..fffffff
+....ee..ee..22f1f11
+....ee..ee...f118f.
+....ee..ee....118..
+....21..21.........
+....111.111........
+`;
+            case "image3":
+            case "hotshot":return img`
+. . . . . . . . . 
+. . . . . . . . . 
+. . . . . . . . . 
+. . . . . . . . . 
+. . f f f f . . . 
+. f e e e e f . . 
+. e e e e e f . . 
+. f e f e e f . . 
+. e e e e e f . . 
+. e e e e e . . . 
+. . e e e . . . . 
+. e 1 e e 1 e e . 
+e e 1 f f 1 e e e 
+e 1 f f f f 1 e e 
+e f f 2 1 f f e e 
+e f f 1 8 f f e e 
+e f f f f f f e e 
+e 1 1 1 1 1 1 e e 
+e f f 8 f f f e e 
+. f f 8 f f f . . 
+. e e . . e e . . 
+. 1 2 . . 1 2 . . 
+1 1 1 . 1 1 1 . . 
+`;
+            case "image7":
+            case "torch":return img`
+. . . . . f f . . 
+. . . . f f f f . 
+. . f f f f f f . 
+. 2 2 2 2 2 2 f . 
+. a a a a f f . . 
+. f a f a f f . . 
+. a a a a a f . . 
+. a a a a a . . . 
+. . a a a . . . . 
+. a 1 a a 1 a a . 
+a a 1 f f 1 a a a 
+a 1 f f f f 1 a a 
+a f f 2 1 f f a a 
+a f f 1 8 f f a a 
+a f f f f f f a a 
+a 1 1 1 1 1 1 a a 
+a f f 8 f f f a a 
+a f f 8 f f f a a 
+. f f 8 f f f . . 
+. a a . . a a . . 
+. a a . . a a . . 
+. 1 2 . . 1 2 . . 
+1 1 1 . 1 1 1 . . 
+`;
+            case "image8":
+            case "coach_sweet_lou":return img`
+. . . f f f f f . . . 
+. . f f e e e f f . . 
+. . f e e e e e f . . 
+. . e e f e f e e . . 
+. . e e e e e e e . . 
+. . e f e e e f e . . 
+. . . e f f f e . . . 
+. . . . e e e . . . . 
+. 3 3 f 1 e 1 f 3 3 . 
+3 3 3 f 1 2 1 f 3 3 3 
+3 3 3 3 f 2 f 3 3 3 3 
+3 3 3 3 3 f 3 3 3 3 3 
+3 3 3 3 3 f 3 1 1 3 3 
+3 3 3 3 3 f 3 3 3 3 3 
+3 3 3 3 3 f 3 3 3 3 3 
+1 1 3 3 f 3 f 3 3 1 1 
+e e f f 3 3 3 f f e e 
+e e 3 3 3 . 3 3 3 e e 
+. . 3 3 3 . 3 3 3 . . 
+. . 3 3 3 . 3 3 3 . . 
+. . 3 3 3 . 3 3 3 . . 
+. . f f f . f f f . . 
+. . f f f . f f f . . 
+`;
+            case "image11":
+            case "hg_ball":return img`
+. . 8 1 1 . . 
+. f 8 1 1 f . 
+1 1 f 1 f 2 2 
+f f f f f f f 
+2 2 f 1 f 1 1 
+. f 1 1 8 f . 
+. . 1 1 8 . . 
+`;
+            case "image16":
+            case "net":return img`
+. . . . 3 3 3 3 3 3 3 . . . . 
+. . 3 3 f f f f f f f 3 3 . . 
+. 3 f f 1 1 . . . 1 1 f f 3 . 
+3 f f . 1 . 1 . 1 . 1 . f f 3 
+3 f 1 . 1 . . 1 . . 1 . 1 f 3 
+f 3 f 1 1 . 1 . 1 . 1 1 f 3 f 
+1 f 3 3 1 1 . . . 1 1 3 3 f 1 
+1 1 f f 3 3 3 3 3 3 3 f f 1 1 
+1 . 1 . f f f f f f f . 1 . 1 
+1 . . 1 1 . 1 . 1 . 1 1 . . 1 
+1 . 1 . 1 1 . . . 1 1 . 1 . 1 
+1 1 . . 1 . 1 . 1 . 1 . . 1 1 
+1 . 1 . 1 . . 1 . . 1 . 1 . 1 
+1 . . 1 1 . 1 . 1 . 1 1 . . 1 
+. . . . 1 1 . . . 1 1 . . . . 
+. . . . 1 . 1 . 1 . 1 . . . . 
+. . . . 1 . . 1 . . 1 . . . . 
+`;
         }
         return null;
     })
 
     helpers._registerFactory("animation", function(name: string) {
         switch(helpers.stringTrim(name)) {
-            case "TNT standing dribble":
+            case "tnt_dribble":
             case "anim1":return [img`
 ....fffff..........
 ..fffffeef.........
@@ -527,7 +527,7 @@ ff....eee..........
 ....21..21...f118f.
 ....111.111...118..
 `];
-            case "TNT walking-dribbling":
+            case "tnt_dribble_right":
             case "anim2":return [img`
 ....fffff..........
 ..fffffeef.........
@@ -577,7 +577,7 @@ ff....eee..........
 .111.....211.......
 ..11.....11........
 `];
-            case "Wham shooting":
+            case "wham_shoot":
             case "anim3":return [img`
 ............
 ............
@@ -714,7 +714,7 @@ af118faaaaa.
 ....12..12..
 ...111.111..
 `];
-            case "Hotshot dribbling":
+            case "hotshot_dribble":
             case "anim4":return [img`
 ..........ffff.....
 .........feeeff....
@@ -756,7 +756,7 @@ fffffff.eef8fff....
 .......112.....111.
 ........11.....11..
 `];
-            case "Torch blocking":
+            case "torch_block":
             case "anim5":return [img`
 . . . . . . . . . . . . 
 . . . . . . . . . . . . 
@@ -883,7 +883,7 @@ a f 1 1 8 f a a a a a .
 . . . . 1 2 . . 1 2 . . 
 . . . 1 1 1 . 1 1 1 . . 
 `];
-            case "TNT  left dribble":
+            case "tnt_dribble_left":
             case "anim6":return [img`
 ..........fffff....
 .........feefffff..
