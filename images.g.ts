@@ -266,35 +266,6 @@ dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd
 . . . a e e e e e . . . 
 . . . . . . . . . . . . 
 `;
-            case "image6":
-            case "ball":return img`
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . f f f f f f f . . . . 
-. . . . f e e e e e e e f . . . 
-. . . f e e e e e e e e e f . . 
-. . . f e e e e e e e e e f . . 
-. . . f e e e e e e e e e f . . 
-. . . f e e e e e e e e e f . . 
-. . . f e e e e e e e e e f . . 
-. . . f e e e e e e e e e f . . 
-. . . f e e e e e e e e e f . . 
-. . . . f e e e e e e e f . . . 
-. . . . . f f f f f f f . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-`;
-            case "image11":
-            case "hg_ball":return img`
-. . 8 1 1 . . 
-. f 8 1 1 f . 
-1 1 f 1 f 2 2 
-f f f f f f f 
-2 2 f 1 f 1 1 
-. f 1 1 8 f . 
-. . 1 1 8 . . 
-`;
             case "image16":
             case "net":return img`
 . . . . 3 3 3 3 3 3 3 . . . . 
@@ -314,6 +285,16 @@ f 3 f 1 1 . 1 . 1 . 1 1 f 3 f
 . . . . 1 1 . . . 1 1 . . . . 
 . . . . 1 . 1 . 1 . 1 . . . . 
 . . . . 1 . . 1 . . 1 . . . . 
+`;
+            case "image11":
+            case "ball":return img`
+. . 8 1 1 . . 
+. f 8 1 1 f . 
+1 1 f 1 f 2 2 
+f f f f f f f 
+2 2 f 1 f 1 1 
+. f 1 1 8 f . 
+. . 1 1 8 . . 
 `;
         }
         return null;
