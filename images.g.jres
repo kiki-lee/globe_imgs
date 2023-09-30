@@ -4,7 +4,7 @@
         "mimeType": "image/x-mkcd-f4",
         "displayName": "court",
         "tags": [
-            "background"
+            "background", "globe"
         ]
     },
     "image13": {
@@ -12,23 +12,32 @@
         "mimeType": "image/x-mkcd-f4",
         "displayName": "audience",
         "tags": [
-            "background"
+            "background", "globe"
         ]
     },
     "image20": {
         "data": "hwQMAA4AAAAAVQUAAAAAAFAAUAAAAAAAVVVVBQAAAAARERFRAAAKAFVVVRUFoA4AVVVVVRHhDgBVVVVVVeUOAFVVVVUF4A4AVVVVVQAADgBVVVUFAAAAAFAAUAAAAAAAAFUFAAAAAAA=",
         "mimeType": "image/x-mkcd-f4",
-        "displayName": "trophy"
+        "displayName": "trophy",
+        "tags": [
+           "globe"
+        ]
     },
     "image16": {
         "data": "hwQPABEAAAAAMPMRERERAAAAAAAA8z8fABAAAAAAAAAw//HzAQEBAAAAAAAwDxDzEAAQAAAAAADzERExHxEREQEAAADzAQAxDwEAAQAAAADzEBAwHxAQEAAAAADzAAEwDwABAAEAAADzEBAwHxAQEAAAAADzAQAxDwEAAQAAAADzERExHxEREQEAAAAwDxDzEAAQAAAAAAAw//HzAQEBAAAAAAAA8z8fABAAAAAAAAAAMPMRERERAAAAAAA=",
         "mimeType": "image/x-mkcd-f4",
-        "displayName": "net"
+        "displayName": "net",
+        "tags": [
+           "globe"
+        ]
     },
     "image11": {
         "data": "hwQHAAcAAAAA8QIA8PHyAIj/HwER8REBEf+PCPDy8QAA8gEA",
         "mimeType": "image/x-mkcd-f4",
-        "displayName": "ball"
+        "displayName": "ball",
+        "tags": [
+           "globe"
+        ]
     },
     "*": {
         "mimeType": "image/x-mkcd-f4",
