@@ -4,7 +4,7 @@
         "mimeType": "image/x-mkcd-f4",
         "displayName": "court",
         "tags": [
-            "background", "globe"
+            "background"
         ]
     },
     "image13": {
@@ -12,12 +12,13 @@
         "mimeType": "image/x-mkcd-f4",
         "displayName": "audience",
         "tags": [
-            "background", "globe"
+            "background"
         ]
     },
     "image20": {
         "data": "hwQMAA4AAAAAVQUAAAAAAFAAUAAAAAAAVVVVBQAAAAARERFRAAAKAFVVVRUFoA4AVVVVVRHhDgBVVVVVVeUOAFVVVVUF4A4AVVVVVQAADgBVVVUFAAAAAFAAUAAAAAAAAFUFAAAAAAA=",
         "mimeType": "image/x-mkcd-f4",
+
         "displayName": "trophy",
         "tags": [
            "globe"
